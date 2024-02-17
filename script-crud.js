@@ -29,7 +29,7 @@ function listarItemTarefa (tarefa){
     botaoEdit.classList.add('app_button-edit')
 
     const imgBotaoEdit = document.createElement('img')
-    imgBotaoEdit.setAttribute('src','/imagens/edit.png')
+    imgBotaoEdit.setAttribute('src','./imagens/edit.png')
     botaoEdit.append(imgBotaoEdit)
 
     li.append(svg)
